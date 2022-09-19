@@ -1,0 +1,153 @@
+body,
+ul li{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  color: #F0FFFF;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#header1 {
+    box-sizing: border-box;
+    height: 50px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#333333;
+  }
+#header {
+  box-sizing: border-box;
+  height: 90px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:#126E51;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+/* css flaxbox */
+.h1 {
+    text-align: center;
+    margin-top: 2px;
+
+    background:black;
+    color:#F0FFFF;
+    opacity: .9;
+
+
+}
+.h1:hover {
+    opacity: 1;
+}
+p {
+    color:#f0ffffb7;
+    text-align: justify;
+    opacity: .8;
+    background: #33333313;
+}
+
+p :hover {
+    opacity: 1;
+}
+
+.h11 {
+    text-align: justify;
+    font-size: medium;
+    opacity: .9;
+    
+}
+.h11 :hover {
+    opacity: 1;
+}
+
+
+.corpo {
+    background-color: #585858d2;
+    font-family: "Segoe UI" - 400;
+    text-justify: auto;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+.quadros {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.quadros> div {
+    flex: 1 1 200px;
+    margin: 30px;
+}
+
+/* rodapé */
+
+.icone{
+    max-width: 100%;
+    display: block;
+}
+
+.rodape {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+    background:#141414;
+    margin: 0 auto;
+    color: #F0FFFF;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    height: 300px;
+    
+    text-align: left;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    list-style: none;
+
+
+
+
+  }
+  .icone {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    margin: 10px;
+    flex: 1 1 0;
+
+  }
+  .ins {
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+  }
+
+
+
+
